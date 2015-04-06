@@ -6,6 +6,10 @@ git push -u origin master
 
 git commit -m "First commit"
 
+git fetch origin
+
+git reset --hard origin/master
+
 Git workflow (for each separate file):
 
 make changes
