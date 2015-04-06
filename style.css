@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    min-height: 100%;
+    width: 100%;
+}
+
+table, tr, td, th
+{
+    border: 1px solid black;
+}
+
+table
+{
+    text-align: center;
+    border-collapse: collapse;    
+}
+
+
+td:first-child 
+{ 
+    color: red;
+    font-style:italic;    
+}
+
+td:nth-child(3)
+{ 
+    color: blue;
+}
+
+tbody > tr:nth-child(odd)
+{
+    background-color: #5260FF; 
+}
+
+
+tr:nth-child(even)
+{
+    background-color: #2AF57E;
+}
