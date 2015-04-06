@@ -1,0 +1,5 @@
+Git Commands:
+
+git push -u origin master
+
+git commit -m "First commit"
