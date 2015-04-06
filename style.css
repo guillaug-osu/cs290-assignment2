@@ -12,29 +12,24 @@ table
 
 td:first-child 
 { 
-    color: red;
+    color: blue;
     font-style:italic;    
 }
 
 td:nth-child(3)
 { 
-    color: blue;
+    color: red;
 }
 
 tbody > tr:nth-child(odd)
 {
-    background-color: #5260FF; 
+    background-color: #2AF57E; 
 }
 
 
 tr:nth-child(even)
 {
-    background-color: #2AF57E;
-}
-
-dt:hover
-{
-    background-color: purple;
+    background-color: #5260FF;
 }
 
 .outer-content
